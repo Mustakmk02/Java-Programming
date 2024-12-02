@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ConditionalStatement/src/IfElseStatement.java&apos; to &apos;IfElseExamplejava&apos;" description="Rename resource &apos;IfElseStatement.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/IfElseStatement.java" name="IfElseExamplejava" stamp="1719914075050" updateReferences="true"/>
+</session>

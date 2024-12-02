@@ -1,0 +1,23 @@
+
+public class DuplicateArray 
+{
+	public static void main(String[] args) {
+		
+		// Approach #1
+		
+		String langs []= {"java","c","c++","python","html","java"};
+		boolean flag=false;
+		for(int i=0;i<langs.length;i++)
+		{
+			for(int j=i+1;i<=langs.length;i++)
+			{
+				if(langs[i]==langs[j])
+				{
+					System.out.println("Duplicate Element found in array :"+langs);
+					flag=true;
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,36 @@
+
+public class binarySearch
+{
+	public static void main(String[] args) {
+		int a[]= {1,2,3,4,5,6,7};// shuold be in sorter order
+		 
+		int key=6;
+		int low=0;
+		int high=a.length-1;
+		boolean falge=false;
+		
+		while(low<=high)
+		{
+			int mid=(low+high)/2;
+			if(a[mid]==key)
+			{
+				System.out.println("Element found.. ");
+				falge=true;
+				break;
+			}
+			if(a[mid]>key)
+			{
+				high=mid-1;
+			}
+			if(a[mid]<key)
+			{
+				low=mid+1;
+			}
+		}
+		if(flage==false)
+		{
+			System.out.println("element not found..");
+		}
+	}
+	
+}

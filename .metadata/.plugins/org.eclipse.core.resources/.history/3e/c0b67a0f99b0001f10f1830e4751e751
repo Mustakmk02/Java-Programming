@@ -1,0 +1,12 @@
+import java.util.Arrays;
+
+public class SortingElement 
+{
+	public static void main(String[] args) {
+		// Approach #1
+		int a[] = {2,4,6,8,9};
+		System.out.println("Sorting before the element "+ Arrays.toString(a));
+		Arrays.parallelSort(a);
+	}
+
+}

@@ -1,0 +1,23 @@
+
+public class CountTheWord
+{
+	public static void main(String[] args)
+	{
+		String str="Welcome to java";
+		int count=0;
+		for(int i=1;i<=str.length();i++)
+		{
+			if( (str.charAt(i)==' ') && ( str.charAt(i)!=' ')	)
+			{
+				count++;
+			}
+		
+			
+		System.out.println(count);
+			
+		}
+		
+		
+	}
+
+}
